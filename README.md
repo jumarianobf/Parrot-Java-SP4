@@ -189,8 +189,8 @@ spring.cache.type=simple
 ### 👤 Usuários de Teste
 | Usuário | Senha | Perfil |
 |---------|-------|--------|
-| `admin` | `admin123` | ADMIN |
-| `user` | `user123` | USER |
+| `admin` | `admin` | ADMIN |
+| `java` | `challenge` | USER |
 
 ### 💬 Casos de Teste do Chat IA
 1. **Higiene Básica**: "Como escovar os dentes corretamente?"
@@ -198,11 +198,6 @@ spring.cache.type=simple
 3. **Prevenção**: "Quando devo trocar minha escova de dentes?"
 4. **Doenças**: "O que é gengivite e como tratá-la?"
 5. **Consultas**: "Com que frequência devo visitar o dentista?"
-
-### 📊 Monitoramento em Ação
-- **Health Check**: `http://localhost:8080/actuator/health`
-- **Métricas IA**: `http://localhost:8080/actuator/metrics/ai.response.time`
-- **Cache Stats**: `http://localhost:8080/actuator/metrics/recommendation.cache.hits`
 
 ## 🔒 Segurança Implementada
 
@@ -240,9 +235,6 @@ tail -f logs/application.log
 Verificar status do Azure OpenAI
 curl -H "api-key: $AZURE_OPENAI_API_KEY"
 "$AZURE_OPENAI_ENDPOINT/openai/deployments"
-
-
-
 
 
 ## 🤝 Contribuindo
