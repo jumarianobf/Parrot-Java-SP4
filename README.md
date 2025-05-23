@@ -82,7 +82,13 @@ O ParrotTech OdontoPrev é uma solução completa para modernizar o atendimento 
 | **Leonardo Gaspar** | Full Stack Developer | [@Leonardo-Gaspar](https://github.com/Leonardo-Gaspar) |
 | **Caio Eduardo** | Full Stack Developer | [@caioedum](https://github.com/caioedum) |
 
+---
 
+## 🗺️ Link Youtube
+
+👉 [Link do Youtube](https://www.youtube.com/watch?v=TpxfqDMRwZk)
+
+---
 ## 🛠️ Configuração e Instalação
 
 ### Pré-requisitos
