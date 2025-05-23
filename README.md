@@ -21,6 +21,7 @@ O ParrotTech OdontoPrev é uma solução completa para modernizar o atendimento 
 ### Backend
 - **Java 21** - Linguagem principal
 - **Spring Boot 3.4.3** - Framework principal
+- **Spring MVC** - Framework para desenvolvimento de APIs REST e aplicações web seguindo o padrão Model-View-Controller
 - **Spring Security** - Autenticação e autorização
 - **Spring AI** - Integração com Azure OpenAI
 - **Spring Data JPA** - Persistência de dados
